@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "World Cuisine CLI Gem Project "
-date:       2019-12-08 18:29:33 +0000
+date:       2019-12-08 13:29:34 -0500
 permalink:  world_cuisine_cli_gem_project
 ---
 
@@ -33,8 +33,9 @@ One of the most difficult parts of the coding process was scraping and displayin
 
 In this case, the best option was to write a conditional statement that would only puts out the ingredient if one was listed. To code, I simply created an unless conditional statement that would interpolate the ingredient value and print it to the terminal unless it was "null" or empty. This worked perfectly! 
 
-` puts "#{selected_meal_info[0]["strIngredient1"]}: #{selected_meal_info[0]["strMeasure1"]}" unless selected_meal_info[0]["strIngredient1"] == "null" || selected_meal_info[0]["strIngredient1"] == ""
-`
+```
+puts "#{selected_meal_info[0]["strIngredient1"]}: #{selected_meal_info[0]["strMeasure1"]}" unless selected_meal_info[0]["strIngredient1"] == "null" || selected_meal_info[0]["strIngredient1"] == ""
+```
 
 Happy and content with my final code, I eagerly had my husband test it out. By doing this, I was reminded of the importance of letting others test your code. While the gem was fully funtional, during the test, I uncovered a glitch when the user entered yes to search for another reciepe. This glitch would rerun the code and would create new area objects. However, the new area objects would be duplicates of the original menu. This meant that upon second search, the users menu of areas and recipe options would double with a duplicate of each. 
 
