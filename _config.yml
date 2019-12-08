@@ -1,11 +1,11 @@
 # Site settings
-author: Nicole Lucien
-title: 
+author: Nicole M. Lucien 
+title: Transition to Code 
 header-img: img/home-bg.png
 email: nicolemlucien@gmail.com
-copyright_name: Nicole Lucien
+copyright_name: Nicole M. Lucien 
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The stories of a Twin Mom's transition to tech! 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: HerNameisNic
 github_username:  nicmlu
