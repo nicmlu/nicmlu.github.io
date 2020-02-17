@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Creating a Basic MVC Application using Sinatra "
-date:       2020-02-17 03:10:14 +0000
+date:       2020-02-16 22:10:15 -0500
 permalink:  creating_a_basic_mvc_application_using_sinatra
 ---
 
